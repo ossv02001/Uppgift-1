@@ -1,0 +1,39 @@
+
+
+body{
+background-color:grey;
+
+}
+h1{
+font-family:arial;
+font-size:22px;
+}
+h2{
+background-color:pink;
+border-radius:10px;
+color:white;
+}
+p.text{
+background-color:yellow;
+border-radius:8px;
+color:black;
+}
+p.text2{
+background-color:orange;
+border-radius:8px;
+color:black;
+}
+p.text0{
+background-color:blue;
+border-radius:8px;
+color:black;
+}
+.container {
+	display: grid;
+	grid-template: 500px 500px
+	grid-template-rows: auto;
+	grid-template-areas:
+		"header header"
+		"main main"	
+		"footer footer";
+}

@@ -1,0 +1,160 @@
+body{
+	background-color: #4dbfb2;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 100px 50px auto 100px;
+	grid-template-areas: "header header header" "nav nav nav" "main main main" "footer footer footer";
+}
+
+header {
+	grid-area: header;
+}
+
+header>h1 {
+	text-align: center;
+	text-shadow: 2px 1px #39dbc8;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav {
+	grid-area: nav;
+	display: grid;
+}
+
+nav ul {
+	font-size: 2em;
+	border: 4px inset #6be6ff;
+	grid-template-columns: 1fr 1fr 1fr;
+	display: grid;
+	margin: 0;
+	padding: 0;
+	background-color: #5dff6b;
+}
+
+nav li {
+	list-style-type: none;
+	text-align: center;
+}
+
+main {
+	grid-area: main;
+	display: grid;
+}
+
+.Startsida {
+	grid-column-start: 2;
+	font-size: 18pt;
+}
+
+.Startsida2 {
+	grid column-start: 1;
+	font-size: 18pt;
+}
+
+footer {
+	grid-area: footer;
+}
+
+.sida1 {
+	text-align: center;
+	grid-area: header;
+	text-shadow: 2px 1px #6e34eb;
+}
+
+.sida2 {
+	text-align: center;
+	grid-area: header;
+	text-shadow: 2px 1px #6e34eb;
+}
+
+.sida3 {
+	text-align: center;
+	grid-area: header;
+	text-shadow: 2px 1px #6e34eb;
+}
+
+#background1 {
+	background-color: #d73f3f;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 100px 50px auto 100px;
+	grid-template-areas: "header header header" "nav nav nav" "main main main" "footer footer footer";
+}
+
+#options {
+	font-size: 2em;
+	border: 4px inset #c2c2c2;
+	grid-template-columns: 1fr 1fr 1fr;
+	display: grid;
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(#40a19a, #4fc9c1, #40a19a);
+}
+
+#background2 {
+	background-color: #bf7e4d;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 100px 50px auto 100px;
+	grid-template-areas: "header header header" "nav nav nav" "main main main" "footer footer footer";
+}
+
+#background3 {
+	background-color: #red;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 100px 50px auto 100px;
+	grid-template-areas: "header header header" "nav nav nav" "main main main" "footer footer footer";
+}
+
+table,th,td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	grid-column-start: 3;
+}
+
+.lista {
+	grid-column-start: 1;
+	font-size: 25pt;
+}
+
+.footer{
+	 position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: blue;
+	color: white;
+   text-align: center;
+}
+
+th {
+	background-color: #red;
+	font-size: 20pt;
+}
+
+tr:nth-child(2) {
+	background-color: #bac;
+}
+
+tr:nth-child(3) {
+	background-color: #bac;
+}
+
+tr:nth-child(4) {
+	background-color: #bac;
+}
+
+tbody:nth-child(odd) {}
+
+tbody:hover td[rowspan],
+tr:hover td {
+	background-image: linear-gradient(to Blue, yellow, green, red);
+}
+
+a:hover {
+	background-color: CornflowerBlue;
+}

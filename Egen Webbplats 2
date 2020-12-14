@@ -1,0 +1,40 @@
+<!DOCTYPE html>  
+<html lang="sv">
+   <head>
+      <meta charset="utf-8">
+      <link href="CSS-uppgift-8-Oskar-svensson.css" rel="stylesheet">
+      <title>Egna hemsidan</title>
+   </head>
+   <body>
+      <header>
+         <h1 class="titel">Oskars Hemsida</h1>
+      </header>
+      <nav>
+         <ul>
+            <li>
+               <a class="Oskars-sida-uggift-8-Om-mig" href="Oskars-sida-uggift-8-Om-mig.html">
+               Om mig
+               </a>
+            </li>
+            <li>
+               <a class="tabeller" href="Tabeller-Uppgift-8-Oskar-Svensson.html">
+               Tabeller
+               </a>
+            <li>
+               <a class="bilder" href="Bilder-Oskar-svensson.html">
+               Bilder
+               </a>
+            </li>
+         </ul>
+      </nav>
+      <main>
+         <p class="Startsida">
+            Hej, detta är min sida.
+         </p>
+      </main>
+	  <div class="footer">
+	  </div>
+      <footer>
+		<a href="mailto:ossv02001@utb.vaxjo.se">ossv02001@utb.vaxjo.se</a>
+		  </footer>
+   </body>

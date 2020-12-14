@@ -1,0 +1,34 @@
+<!DOCTYPE html>  
+<html lang="sv">
+   <head>
+      <meta charset="utf-8">
+      <link href="CSS-uppgift-8-Oskar-svensson.css" rel="stylesheet">
+      <title>Om mig</title>
+   </head>
+   <body>
+      <header>
+         <h1 class="sida1">Om mig</h1>
+      </header>
+      <nav>
+         <ul id="options">
+            <li>
+               <a href="Oskars-sida-uggift-8.html">
+               Hem
+               </a>
+            </li>
+            <li>
+               <a href="Tabeller-Uppgift-8-Oskar-Svensson.html">
+               Tabeller
+               </a>
+            <li>
+               <a href="Bilder-Oskar-svensson.html">
+               Bilder
+               </a>
+            </li>
+         </ul>
+      </nav>
+      <main>
+      <p class="Startsida2">
+         Hej, jag heter Oskar Svensson, bor utanför alvesta i en liten by som heter Vret. Bor på en mjölkgård och jobbar mycket på fritiden. 
+		 </main>
+   </body>
